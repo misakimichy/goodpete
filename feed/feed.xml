@@ -3,7 +3,7 @@
 	<title>Goodpete</title>
 	<subtitle>Goodpete website</subtitle>
 	
-	<link href="https://misakikoonce.github.io/eleventy-gh-demo/feed/feed.xml" rel="self"/>
+	<link href="https://misakikoonce.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://misakikoonce.github.io"/>
 	<updated>2016-10-09T00:00:00Z</updated>
 	<id>https://example.com/</id>
@@ -13,27 +13,27 @@
 	
 	<entry>
 		<title>Deadbeef Decrementation</title>
-		<link href="https://misakikoonce.github.io/eleventy-gh-demo/post/deadbeef-decrementation/"/>
+		<link href="https://misakikoonce.github.io/post/deadbeef-decrementation/"/>
 		<updated>2016-10-09T00:00:00Z</updated>
-		<id>https://misakikoonce.github.io/eleventy-gh-demo/post/deadbeef-decrementation/</id>
+		<id>https://misakikoonce.github.io/post/deadbeef-decrementation/</id>
 		<content type="html">&lt;pre class=&quot;language-nasm&quot;&gt;&lt;code class=&quot;language-nasm&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;;run on Linux with: nasm -felf64 decrement.asm &amp;amp;&amp;amp; ld decrement.o &amp;amp;&amp;amp; ./a.out&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;global _start&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;section .text&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token label function&quot;&gt;_start:&lt;/span&gt;&lt;br /&gt;  mov &lt;span class=&quot;token register variable&quot;&gt;rax&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;0xDEADBEEF&lt;/span&gt;&lt;br /&gt;  call decrement&lt;br /&gt;  call exit&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token label function&quot;&gt;decrement:&lt;/span&gt;&lt;br /&gt;  dec &lt;span class=&quot;token register variable&quot;&gt;rax&lt;/span&gt;&lt;br /&gt;  cmp &lt;span class=&quot;token register variable&quot;&gt;rax&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;br /&gt;  jg decrement&lt;br /&gt;  ret&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token label function&quot;&gt;exit:&lt;/span&gt;&lt;br /&gt;  mov &lt;span class=&quot;token register variable&quot;&gt;rax&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;60&lt;/span&gt;&lt;br /&gt;  syscall&lt;br /&gt;&lt;span class=&quot;token string&quot;&gt;``&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Interior Crocodile Alligator, I Drive a Chevrolet Movie Theater</title>
-		<link href="https://misakikoonce.github.io/eleventy-gh-demo/interior-crocodile-alligator/"/>
+		<link href="https://misakikoonce.github.io/interior-crocodile-alligator/"/>
 		<updated>2008-09-19T00:00:00Z</updated>
-		<id>https://misakikoonce.github.io/eleventy-gh-demo/interior-crocodile-alligator/</id>
+		<id>https://misakikoonce.github.io/interior-crocodile-alligator/</id>
 		<content type="html">&lt;p&gt;To truly understand the captivating phenomenon that is the &lt;a href=&quot;https://www.youtube.com/watch?v=0OEbuDP5Yys&quot;&gt;Interior Crocodile Alligator song&lt;/a&gt;, you must be familiar with its &lt;a href=&quot;https://youtu.be/UXQ38gUsB20&quot;&gt;history&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Why My Practice of Thelema Makes Me Better at World of Warcraft</title>
-		<link href="https://misakikoonce.github.io/eleventy-gh-demo/post/why-my-practice-of-thelema-makes-me-better-at-world-of-warcraft/"/>
+		<link href="https://misakikoonce.github.io/post/why-my-practice-of-thelema-makes-me-better-at-world-of-warcraft/"/>
 		<updated>1974-09-09T00:00:00Z</updated>
-		<id>https://misakikoonce.github.io/eleventy-gh-demo/post/why-my-practice-of-thelema-makes-me-better-at-world-of-warcraft/</id>
+		<id>https://misakikoonce.github.io/post/why-my-practice-of-thelema-makes-me-better-at-world-of-warcraft/</id>
 		<content type="html">&lt;p&gt;⛧⛧⛧&lt;/p&gt;
 &lt;p&gt;ivil wea qep&lt;/p&gt;
 &lt;p&gt;⛧⛧⛧&lt;/p&gt;
@@ -42,9 +42,9 @@
 	
 	<entry>
 		<title>Oh, Ronnie James Dio</title>
-		<link href="https://misakikoonce.github.io/eleventy-gh-demo/post/oh-ronnie-james-dio/"/>
+		<link href="https://misakikoonce.github.io/post/oh-ronnie-james-dio/"/>
 		<updated>1935-01-28T00:00:00Z</updated>
-		<id>https://misakikoonce.github.io/eleventy-gh-demo/post/oh-ronnie-james-dio/</id>
+		<id>https://misakikoonce.github.io/post/oh-ronnie-james-dio/</id>
 		<content type="html">&lt;p&gt;&lt;img src=&quot;https://misakikoonce.github.io/11r/dio.jpg&quot; alt=&quot;Photograph of Dio.&quot; title=&quot;Holy Diver&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&amp;lt;p class=“caption”&amp;gt;Photo of Dio by Adam Bielawski via &amp;lt;a href=“&lt;a href=&quot;https://en.wikipedia.org/wiki/Ronnie_James_Dio#/media/File:Ronnie-James-Dio_Heaven-N-Hell_2009-06-11_Chicago_Photoby_Adam-Bielawski.jpg&quot;&gt;https://en.wikipedia.org/wiki/Ronnie_James_Dio#/media/File:Ronnie-James-Dio_Heaven-N-Hell_2009-06-11_Chicago_Photoby_Adam-Bielawski.jpg&lt;/a&gt;”&amp;gt;Wikipedia&amp;lt;/a&amp;gt;, June 11th 2009. &amp;lt;a href=“&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;https://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;”&amp;gt;CC BY-SA 3.0&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;&lt;/p&gt;
 </content>
@@ -52,9 +52,9 @@
 	
 	<entry>
 		<title>Shrek Predicted the COVID-19 Pandemic</title>
-		<link href="https://misakikoonce.github.io/eleventy-gh-demo/post/shrek-predicted-the-covid-19-pandemic/"/>
+		<link href="https://misakikoonce.github.io/post/shrek-predicted-the-covid-19-pandemic/"/>
 		<updated>1921-04-16T00:00:00Z</updated>
-		<id>https://misakikoonce.github.io/eleventy-gh-demo/post/shrek-predicted-the-covid-19-pandemic/</id>
+		<id>https://misakikoonce.github.io/post/shrek-predicted-the-covid-19-pandemic/</id>
 		<content type="html">&lt;p&gt;Please watch &lt;a href=&quot;https://youtu.be/dQw4w9WgXcQ&quot;&gt;this informational video&lt;/a&gt; to learn more.&lt;/p&gt;
 &lt;p&gt;Thank you for your time.&lt;/p&gt;
 </content>
@@ -62,9 +62,9 @@
 	
 	<entry>
 		<title>Lorem Ipsum</title>
-		<link href="https://misakikoonce.github.io/eleventy-gh-demo/post/lorem-ipsum/"/>
+		<link href="https://misakikoonce.github.io/post/lorem-ipsum/"/>
 		<updated>1918-11-04T00:00:00Z</updated>
-		<id>https://misakikoonce.github.io/eleventy-gh-demo/post/lorem-ipsum/</id>
+		<id>https://misakikoonce.github.io/post/lorem-ipsum/</id>
 		<content type="html">&lt;h3 id=&quot;lorem&quot; tabindex=&quot;-1&quot;&gt;Lorem&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue quisque egestas diam in arcu cursus euismod quis. Ac auctor augue mauris augue. Convallis tellus id interdum velit laoreet id donec ultrices. Aliquam eleifend mi in nulla posuere. Pretium quam vulputate dignissim suspendisse in est. Orci sagittis eu volutpat odio facilisis mauris sit. Non nisi est sit amet facilisis magna etiam tempor. Id diam maecenas ultricies mi eget. Sed velit dignissim sodales ut. Purus semper eget duis at. Pellentesque sit amet porttitor eget dolor morbi. Faucibus a pellentesque sit amet porttitor. Orci a scelerisque purus semper eget duis. Mauris commodo quis imperdiet massa tincidunt. Pulvinar elementum integer enim neque. In vitae turpis massa sed elementum. Rhoncus dolor purus non enim.&lt;/p&gt;
 &lt;h3 id=&quot;ipsum&quot; tabindex=&quot;-1&quot;&gt;Ipsum&lt;/h3&gt;
@@ -80,18 +80,18 @@
 	
 	<entry>
 		<title>I Told My Wife I Was Polyamorous</title>
-		<link href="https://misakikoonce.github.io/eleventy-gh-demo/post/i-told-my-wife-i-was-polyamorous/"/>
+		<link href="https://misakikoonce.github.io/post/i-told-my-wife-i-was-polyamorous/"/>
 		<updated>1908-12-12T00:00:00Z</updated>
-		<id>https://misakikoonce.github.io/eleventy-gh-demo/post/i-told-my-wife-i-was-polyamorous/</id>
+		<id>https://misakikoonce.github.io/post/i-told-my-wife-i-was-polyamorous/</id>
 		<content type="html">&lt;p&gt;Just kidding — had I done that I would no longer draw breath.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Quotes</title>
-		<link href="https://misakikoonce.github.io/eleventy-gh-demo/post/quotes/"/>
+		<link href="https://misakikoonce.github.io/post/quotes/"/>
 		<updated>1901-05-06T00:00:00Z</updated>
-		<id>https://misakikoonce.github.io/eleventy-gh-demo/post/quotes/</id>
+		<id>https://misakikoonce.github.io/post/quotes/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;To the dumb question “Why me?” the cosmos barely bothers to return the reply: why not?&lt;/p&gt;
 &lt;/blockquote&gt;
