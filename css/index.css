@@ -1,0 +1,10 @@
+/* Colors */
+:root {
+  --test: #e0e0e0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
