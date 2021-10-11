@@ -21,6 +21,12 @@ module.exports = config => {
 
   config.addPassthroughCopy({ public: './' });
 
+  // Add images
+  config.addPassthroughCopy({ "./assets/images" : "/images" });
+
+  // Add css
+  config.addPassthroughCopy("css");
+
   config.setBrowserSyncConfig({
     files: ['dist/**/*'],
     open: true,
