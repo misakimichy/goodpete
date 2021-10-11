@@ -3,28 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {# Google Schema #}
     <meta itemprop="name" content="{% if metaTitle %}{{ metaTitle }}{{ ' | '}}{% endif %}{% if title %}{{ title }}{{ ' | '}}{% endif %}{% if site.name %}{{ site.name }}{% endif %}">
     <meta itemprop="description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
 
     {# Twitter #}
-    <meta name="twitter:title" content="{% if metaTitle %}{{ metaTitle }}{{ ' | '}}{% endif %}{% if title %}{{ title }}{{ ' | '}}{% endif %}{% if site.name %}{{ site.name }}{% endif %}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:site" content="{{ site.author.handle }}">
-    <meta name="twitter:creator" content="{{ site.author.handle }}">
-    <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseUrl }}{{ site.images.twitter }}">
+    <meta name="twitter:url" content="{{ author.url }}">
+    <meta name="twitter:title" content="{{ twitter.handle }}">
+    <meta name="twitter:description" content="{{ twitter.description }}">
+    <meta name="twitter:creator" content="{{ author.name }}">
+    <meta name="twitter:image" content="{{ twitter.image }}">
 
     {# Open Graph #}
-    <meta name="og:title" content="{% if metaTitle %}{{ metaTitle }}{{ ' | '}}{% endif %}{% if title %}{{ title }}{{ ' | '}}{% endif %}{% if site.name %}{{ site.name }}{% endif %}">
-    <meta name="og:description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="og:image" content="{{ site.url }}{{ site.baseUrl }}{{ site.images.og }}">
-    <meta name="og:url" content="{{ site.url }}{{ site.baseUrl }}">
-    <meta name="og:site_name" content="{{ site.name }}">
-    <meta name="og:locale" content="en_GB">
     <meta name="og:type" content="website">
+    <meta name="og:url" content="{{ author.url }}">
+    <meta name="og:title" content="{{ name }}">
+    <meta name="og:description" content="{{ description }}">
+    <meta name="og:image" content="{{ author.image }}">
+    <meta name="og:site_name" content="{{ name }}">
+  
+
+    <link rel="stylesheet" type = “text/css“  href="{{ '/css/index.css' }}" />
 
     <link rel="icon" type="image/x-icon" href="{{ site.baseUrl }}favicon.ico" />
 
@@ -33,10 +34,10 @@
 
     {% block head %}{% endblock %}
   </head>
-  <body class="flex flex-col min-h-screen">
+  <body>
     {% include 'top-notice.njk' %}
     {% include 'header.njk' %}
-    <main class="container mx-auto max-w-3xl p-8 flex-grow">
+    <main>
       {% block body %}{% endblock %}
     </main>
     {% include 'footer.njk' %}

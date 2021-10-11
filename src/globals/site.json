@@ -1,14 +1,18 @@
 {
   "name": "Goodpete",
-  "description": "Goodpete website",
+  "description": "Good Pete - a small family office in Texas.",
+  "language": "en",
   "url": "https://misakikoonce.github.io",
   "baseUrl": "/",
   "author": {
-    "handle": "@misakikoonce",
-    "name": "Misaki Koonce"
+    "name": "Misaki Koonce",
+    "email": "misaki@goodpete.com",
+    "url": "https://goodpete.com",
+    "image": "og.jpg"
   },
-  "images": {
-    "twitter": "twitter.jpg",
-    "og": "og.jpg"
+  "twitter": {
+    "handle": "@misakimichy",
+    "description": "We support local business.",
+    "image": "twitter.jpg"
   }
 }
