@@ -2,7 +2,7 @@
   "name": "Goodpete",
   "author": "Misaki Koonce",
   "license": "MIT",
-  "homepage": "https://misakimichy.github.io/goodpete/",
+  "homepage": "https://goodpete.com",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
