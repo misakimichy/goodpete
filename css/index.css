@@ -1,0 +1,23 @@
+/* Colors */
+:root {
+  --header: #646464;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--header);
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  
+  margin-top: 45vh;
+  padding: 0 35px;
+}
